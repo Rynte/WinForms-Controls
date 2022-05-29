@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rynte.UI2", "Rynte.UI2\Rynte.UI2.csproj", "{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{0FD3549A-E6E1-4D51-A8DE-2F218B72EEAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD3549A-E6E1-4D51-A8DE-2F218B72EEAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD3549A-E6E1-4D51-A8DE-2F218B72EEAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD3549A-E6E1-4D51-A8DE-2F218B72EEAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD3549A-E6E1-4D51-A8DE-2F218B72EEAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FA36FB6-9516-4E8C-9113-E9C8A1623B2B}
+	EndGlobalSection
+EndGlobal
