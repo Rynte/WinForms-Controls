@@ -4,7 +4,7 @@
 
 * TextBox
 * ComboBox
-* Drag Control
+* DragControl
 * TabControl
 * TreeView
 
