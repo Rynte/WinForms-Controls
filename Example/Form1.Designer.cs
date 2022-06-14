@@ -28,14 +28,14 @@
       /// </summary>
       private void InitializeComponent()
       {
-         System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Узел1");
-         System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Узел0", new System.Windows.Forms.TreeNode[] {
-            treeNode16});
-         System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Узел3");
-         System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Узел4");
-         System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Узел2", new System.Windows.Forms.TreeNode[] {
-            treeNode18,
-            treeNode19});
+         System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Узел1");
+         System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Узел0", new System.Windows.Forms.TreeNode[] {
+            treeNode1});
+         System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Узел3");
+         System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Узел4");
+         System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Узел2", new System.Windows.Forms.TreeNode[] {
+            treeNode3,
+            treeNode4});
          this.rynteProgressBar1 = new Rynte.UI2.RynteProgressBar();
          this.rynteComboBox3 = new Rynte.UI2.RynteComboBox();
          this.rynteComboBox2 = new Rynte.UI2.RynteComboBox();
@@ -51,6 +51,8 @@
          // 
          // rynteProgressBar1
          // 
+         this.rynteProgressBar1.BorderColor = System.Drawing.Color.Black;
+         this.rynteProgressBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
          this.rynteProgressBar1.ForeColor = System.Drawing.SystemColors.Control;
          this.rynteProgressBar1.Location = new System.Drawing.Point(13, 229);
          this.rynteProgressBar1.MarqueeAnimationSpeed = 10;
@@ -59,7 +61,7 @@
          this.rynteProgressBar1.Size = new System.Drawing.Size(420, 23);
          this.rynteProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
          this.rynteProgressBar1.TabIndex = 7;
-         this.rynteProgressBar1.Value = 50;
+         this.rynteProgressBar1.Value = 70;
          // 
          // rynteComboBox3
          // 
@@ -97,19 +99,19 @@
          this.rynteTreeView1.DrawMode = System.Windows.Forms.TreeViewDrawMode.OwnerDrawText;
          this.rynteTreeView1.Location = new System.Drawing.Point(238, 147);
          this.rynteTreeView1.Name = "rynteTreeView1";
-         treeNode16.Name = "Узел1";
-         treeNode16.Text = "Узел1";
-         treeNode17.Name = "Узел0";
-         treeNode17.Text = "Узел0";
-         treeNode18.Name = "Узел3";
-         treeNode18.Text = "Узел3";
-         treeNode19.Name = "Узел4";
-         treeNode19.Text = "Узел4";
-         treeNode20.Name = "Узел2";
-         treeNode20.Text = "Узел2";
+         treeNode1.Name = "Узел1";
+         treeNode1.Text = "Узел1";
+         treeNode2.Name = "Узел0";
+         treeNode2.Text = "Узел0";
+         treeNode3.Name = "Узел3";
+         treeNode3.Text = "Узел3";
+         treeNode4.Name = "Узел4";
+         treeNode4.Text = "Узел4";
+         treeNode5.Name = "Узел2";
+         treeNode5.Text = "Узел2";
          this.rynteTreeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode17,
-            treeNode20});
+            treeNode2,
+            treeNode5});
          this.rynteTreeView1.SelectFullRow = false;
          this.rynteTreeView1.SelectNodeBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
          this.rynteTreeView1.SelectNodeForeColor = System.Drawing.Color.White;
