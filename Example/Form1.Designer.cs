@@ -28,65 +28,93 @@
       /// </summary>
       private void InitializeComponent()
       {
-         System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Узел1");
-         System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Узел0", new System.Windows.Forms.TreeNode[] {
-            treeNode1});
-         System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Узел3");
-         System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Узел4");
-         System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Узел2", new System.Windows.Forms.TreeNode[] {
-            treeNode3,
-            treeNode4});
-         this.rynteTextBox1 = new Rynte.UI2.RynteTextBox();
-         this.rynteTextBox2 = new Rynte.UI2.RynteTextBox();
+         System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Узел1");
+         System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Узел0", new System.Windows.Forms.TreeNode[] {
+            treeNode16});
+         System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Узел3");
+         System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Узел4");
+         System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Узел2", new System.Windows.Forms.TreeNode[] {
+            treeNode18,
+            treeNode19});
+         this.rynteProgressBar1 = new Rynte.UI2.RynteProgressBar();
+         this.rynteComboBox3 = new Rynte.UI2.RynteComboBox();
+         this.rynteComboBox2 = new Rynte.UI2.RynteComboBox();
+         this.rynteComboBox1 = new Rynte.UI2.RynteComboBox();
+         this.rynteTreeView1 = new Rynte.UI2.RynteTreeView();
          this.rynteTabControl1 = new Rynte.UI2.RynteTabControl();
          this.tabPage1 = new System.Windows.Forms.TabPage();
          this.tabPage2 = new System.Windows.Forms.TabPage();
-         this.rynteTreeView1 = new Rynte.UI2.RynteTreeView();
-         this.rynteComboBox1 = new Rynte.UI2.RynteComboBox();
-         this.rynteComboBox2 = new Rynte.UI2.RynteComboBox();
-         this.rynteComboBox3 = new Rynte.UI2.RynteComboBox();
+         this.rynteTextBox2 = new Rynte.UI2.RynteTextBox();
+         this.rynteTextBox1 = new Rynte.UI2.RynteTextBox();
          this.rynteTabControl1.SuspendLayout();
          this.SuspendLayout();
          // 
-         // rynteTextBox1
+         // rynteProgressBar1
          // 
-         this.rynteTextBox1.BackColor = System.Drawing.Color.White;
-         this.rynteTextBox1.BorderColor = System.Drawing.Color.Fuchsia;
-         this.rynteTextBox1.BorderMode = Rynte.UI2.Enums.BorderMode.Default;
-         this.rynteTextBox1.BorderSize = 1;
-         this.rynteTextBox1.DefaultText = "";
-         this.rynteTextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
-         this.rynteTextBox1.HoverState.BorderSize = 1;
-         this.rynteTextBox1.Location = new System.Drawing.Point(13, 47);
-         this.rynteTextBox1.Margin = new System.Windows.Forms.Padding(4);
-         this.rynteTextBox1.Multiline = true;
-         this.rynteTextBox1.Name = "rynteTextBox1";
-         this.rynteTextBox1.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
-         this.rynteTextBox1.PasswordChar = false;
-         this.rynteTextBox1.Placeholder = null;
-         this.rynteTextBox1.ReadOnly = false;
-         this.rynteTextBox1.Size = new System.Drawing.Size(218, 94);
-         this.rynteTextBox1.TabIndex = 0;
+         this.rynteProgressBar1.ForeColor = System.Drawing.SystemColors.Control;
+         this.rynteProgressBar1.Location = new System.Drawing.Point(13, 229);
+         this.rynteProgressBar1.MarqueeAnimationSpeed = 10;
+         this.rynteProgressBar1.Name = "rynteProgressBar1";
+         this.rynteProgressBar1.ProgressColor = System.Drawing.Color.Gray;
+         this.rynteProgressBar1.Size = new System.Drawing.Size(420, 23);
+         this.rynteProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+         this.rynteProgressBar1.TabIndex = 7;
+         this.rynteProgressBar1.Value = 50;
          // 
-         // rynteTextBox2
+         // rynteComboBox3
          // 
-         this.rynteTextBox2.BackColor = System.Drawing.Color.White;
-         this.rynteTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-         this.rynteTextBox2.BorderMode = Rynte.UI2.Enums.BorderMode.Underline;
-         this.rynteTextBox2.BorderSize = 1;
-         this.rynteTextBox2.DefaultText = "";
-         this.rynteTextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
-         this.rynteTextBox2.HoverState.BorderSize = 1;
-         this.rynteTextBox2.Location = new System.Drawing.Point(13, 13);
-         this.rynteTextBox2.Margin = new System.Windows.Forms.Padding(4);
-         this.rynteTextBox2.Multiline = false;
-         this.rynteTextBox2.Name = "rynteTextBox2";
-         this.rynteTextBox2.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
-         this.rynteTextBox2.PasswordChar = false;
-         this.rynteTextBox2.Placeholder = "Placeholder";
-         this.rynteTextBox2.ReadOnly = false;
-         this.rynteTextBox2.Size = new System.Drawing.Size(218, 26);
-         this.rynteTextBox2.TabIndex = 1;
+         this.rynteComboBox3.BorderColor = System.Drawing.Color.Magenta;
+         this.rynteComboBox3.ButtonColor = System.Drawing.Color.LightGray;
+         this.rynteComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+         this.rynteComboBox3.FormattingEnabled = true;
+         this.rynteComboBox3.Location = new System.Drawing.Point(13, 202);
+         this.rynteComboBox3.Name = "rynteComboBox3";
+         this.rynteComboBox3.Size = new System.Drawing.Size(218, 21);
+         this.rynteComboBox3.TabIndex = 6;
+         // 
+         // rynteComboBox2
+         // 
+         this.rynteComboBox2.BorderColor = System.Drawing.Color.Blue;
+         this.rynteComboBox2.ButtonColor = System.Drawing.Color.DimGray;
+         this.rynteComboBox2.FormattingEnabled = true;
+         this.rynteComboBox2.Location = new System.Drawing.Point(13, 175);
+         this.rynteComboBox2.Name = "rynteComboBox2";
+         this.rynteComboBox2.Size = new System.Drawing.Size(218, 21);
+         this.rynteComboBox2.TabIndex = 5;
+         // 
+         // rynteComboBox1
+         // 
+         this.rynteComboBox1.BorderColor = System.Drawing.Color.Gray;
+         this.rynteComboBox1.ButtonColor = System.Drawing.Color.Yellow;
+         this.rynteComboBox1.FormattingEnabled = true;
+         this.rynteComboBox1.Location = new System.Drawing.Point(13, 148);
+         this.rynteComboBox1.Name = "rynteComboBox1";
+         this.rynteComboBox1.Size = new System.Drawing.Size(218, 21);
+         this.rynteComboBox1.TabIndex = 4;
+         // 
+         // rynteTreeView1
+         // 
+         this.rynteTreeView1.DrawMode = System.Windows.Forms.TreeViewDrawMode.OwnerDrawText;
+         this.rynteTreeView1.Location = new System.Drawing.Point(238, 147);
+         this.rynteTreeView1.Name = "rynteTreeView1";
+         treeNode16.Name = "Узел1";
+         treeNode16.Text = "Узел1";
+         treeNode17.Name = "Узел0";
+         treeNode17.Text = "Узел0";
+         treeNode18.Name = "Узел3";
+         treeNode18.Text = "Узел3";
+         treeNode19.Name = "Узел4";
+         treeNode19.Text = "Узел4";
+         treeNode20.Name = "Узел2";
+         treeNode20.Text = "Узел2";
+         this.rynteTreeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode17,
+            treeNode20});
+         this.rynteTreeView1.SelectFullRow = false;
+         this.rynteTreeView1.SelectNodeBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
+         this.rynteTreeView1.SelectNodeForeColor = System.Drawing.Color.White;
+         this.rynteTreeView1.Size = new System.Drawing.Size(195, 76);
+         this.rynteTreeView1.TabIndex = 3;
          // 
          // rynteTabControl1
          // 
@@ -120,71 +148,57 @@
          this.tabPage2.Location = new System.Drawing.Point(4, 20);
          this.tabPage2.Name = "tabPage2";
          this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-         this.tabPage2.Size = new System.Drawing.Size(192, 76);
+         this.tabPage2.Size = new System.Drawing.Size(187, 104);
          this.tabPage2.TabIndex = 1;
          this.tabPage2.Text = "tabPage2";
          this.tabPage2.UseVisualStyleBackColor = true;
          // 
-         // rynteTreeView1
+         // rynteTextBox2
          // 
-         this.rynteTreeView1.DrawMode = System.Windows.Forms.TreeViewDrawMode.OwnerDrawText;
-         this.rynteTreeView1.Location = new System.Drawing.Point(238, 147);
-         this.rynteTreeView1.Name = "rynteTreeView1";
-         treeNode1.Name = "Узел1";
-         treeNode1.Text = "Узел1";
-         treeNode2.Name = "Узел0";
-         treeNode2.Text = "Узел0";
-         treeNode3.Name = "Узел3";
-         treeNode3.Text = "Узел3";
-         treeNode4.Name = "Узел4";
-         treeNode4.Text = "Узел4";
-         treeNode5.Name = "Узел2";
-         treeNode5.Text = "Узел2";
-         this.rynteTreeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode2,
-            treeNode5});
-         this.rynteTreeView1.SelectFullRow = false;
-         this.rynteTreeView1.SelectNodeBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
-         this.rynteTreeView1.SelectNodeForeColor = System.Drawing.Color.White;
-         this.rynteTreeView1.Size = new System.Drawing.Size(195, 76);
-         this.rynteTreeView1.TabIndex = 3;
+         this.rynteTextBox2.BackColor = System.Drawing.Color.White;
+         this.rynteTextBox2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+         this.rynteTextBox2.BorderMode = Rynte.UI2.Enums.BorderMode.Underline;
+         this.rynteTextBox2.BorderSize = 1;
+         this.rynteTextBox2.DefaultText = "";
+         this.rynteTextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
+         this.rynteTextBox2.HoverState.BorderSize = 1;
+         this.rynteTextBox2.Location = new System.Drawing.Point(13, 13);
+         this.rynteTextBox2.Margin = new System.Windows.Forms.Padding(4);
+         this.rynteTextBox2.Multiline = false;
+         this.rynteTextBox2.Name = "rynteTextBox2";
+         this.rynteTextBox2.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
+         this.rynteTextBox2.PasswordChar = false;
+         this.rynteTextBox2.Placeholder = "Placeholder";
+         this.rynteTextBox2.ReadOnly = false;
+         this.rynteTextBox2.Size = new System.Drawing.Size(218, 26);
+         this.rynteTextBox2.TabIndex = 1;
          // 
-         // rynteComboBox1
+         // rynteTextBox1
          // 
-         this.rynteComboBox1.BorderColor = System.Drawing.Color.Gray;
-         this.rynteComboBox1.ButtonColor = System.Drawing.Color.Yellow;
-         this.rynteComboBox1.FormattingEnabled = true;
-         this.rynteComboBox1.Location = new System.Drawing.Point(13, 148);
-         this.rynteComboBox1.Name = "rynteComboBox1";
-         this.rynteComboBox1.Size = new System.Drawing.Size(218, 21);
-         this.rynteComboBox1.TabIndex = 4;
-         // 
-         // rynteComboBox2
-         // 
-         this.rynteComboBox2.BorderColor = System.Drawing.Color.Blue;
-         this.rynteComboBox2.ButtonColor = System.Drawing.Color.DimGray;
-         this.rynteComboBox2.FormattingEnabled = true;
-         this.rynteComboBox2.Location = new System.Drawing.Point(13, 175);
-         this.rynteComboBox2.Name = "rynteComboBox2";
-         this.rynteComboBox2.Size = new System.Drawing.Size(218, 21);
-         this.rynteComboBox2.TabIndex = 5;
-         // 
-         // rynteComboBox3
-         // 
-         this.rynteComboBox3.BorderColor = System.Drawing.Color.Magenta;
-         this.rynteComboBox3.ButtonColor = System.Drawing.Color.LightGray;
-         this.rynteComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-         this.rynteComboBox3.FormattingEnabled = true;
-         this.rynteComboBox3.Location = new System.Drawing.Point(13, 202);
-         this.rynteComboBox3.Name = "rynteComboBox3";
-         this.rynteComboBox3.Size = new System.Drawing.Size(218, 21);
-         this.rynteComboBox3.TabIndex = 6;
+         this.rynteTextBox1.BackColor = System.Drawing.Color.White;
+         this.rynteTextBox1.BorderColor = System.Drawing.Color.Fuchsia;
+         this.rynteTextBox1.BorderMode = Rynte.UI2.Enums.BorderMode.Default;
+         this.rynteTextBox1.BorderSize = 1;
+         this.rynteTextBox1.DefaultText = "";
+         this.rynteTextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
+         this.rynteTextBox1.HoverState.BorderSize = 1;
+         this.rynteTextBox1.Location = new System.Drawing.Point(13, 47);
+         this.rynteTextBox1.Margin = new System.Windows.Forms.Padding(4);
+         this.rynteTextBox1.Multiline = true;
+         this.rynteTextBox1.Name = "rynteTextBox1";
+         this.rynteTextBox1.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
+         this.rynteTextBox1.PasswordChar = false;
+         this.rynteTextBox1.Placeholder = null;
+         this.rynteTextBox1.ReadOnly = false;
+         this.rynteTextBox1.Size = new System.Drawing.Size(218, 94);
+         this.rynteTextBox1.TabIndex = 0;
          // 
          // Form1
          // 
          this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.ClientSize = new System.Drawing.Size(445, 236);
+         this.ClientSize = new System.Drawing.Size(445, 264);
+         this.Controls.Add(this.rynteProgressBar1);
          this.Controls.Add(this.rynteComboBox3);
          this.Controls.Add(this.rynteComboBox2);
          this.Controls.Add(this.rynteComboBox1);
@@ -210,6 +224,7 @@
       private Rynte.UI2.RynteComboBox rynteComboBox1;
       private Rynte.UI2.RynteComboBox rynteComboBox2;
       private Rynte.UI2.RynteComboBox rynteComboBox3;
+      private Rynte.UI2.RynteProgressBar rynteProgressBar1;
    }
 }
 

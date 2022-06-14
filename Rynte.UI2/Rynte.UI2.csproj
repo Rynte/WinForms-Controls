@@ -60,6 +60,9 @@
     <Compile Include="RynteDragControl.Designer.cs">
       <DependentUpon>RynteDragControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="RynteProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="RynteTabControl.cs">
       <SubType>Component</SubType>
     </Compile>
