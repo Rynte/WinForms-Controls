@@ -7,6 +7,7 @@
 * DragControl
 * TabControl
 * TreeView
+* Progressbar
 
 ### Preview:
 
